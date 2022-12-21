@@ -1,5 +1,10 @@
 <keymap version="1" name="Windows copy 1" parent="$default">
   <action id="AddToFavoritesPopup" />
+  <action id="CIDR.Lang.IntroduceConstant">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+    <keyboard-shortcut first-keystroke="shift alt c" />
+  </action>
+  <action id="ChangesView.Move" />
   <action id="CopyElement" />
   <action id="Debugger.EditFrameSource" />
   <action id="Documentation.EditSource" />
@@ -7,12 +12,24 @@
   <action id="DomElementsTreeView.GotoDomElementDeclarationAction" />
   <action id="EditSource" />
   <action id="ExternalSystem.OpenConfig" />
+  <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="ctrl alt m" />
+    <keyboard-shortcut first-keystroke="shift alt m" />
+  </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
     <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="IntroduceParameter">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+    <keyboard-shortcut first-keystroke="shift alt p" />
+  </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+    <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
   <action id="Move" />
   <action id="NavBar-navigate" />
@@ -24,6 +41,7 @@
     <mouse-shortcut keystroke="alt button1" />
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="RecentChanges" />
   <action id="RecentFiles" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
@@ -52,6 +70,7 @@
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UpdateRunningApplication" />
   <action id="Vcs.EditSource" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
@@ -62,4 +81,6 @@
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
+  <action id="context.load" />
+  <action id="hg4idea.QPushAction" />
 </keymap>
