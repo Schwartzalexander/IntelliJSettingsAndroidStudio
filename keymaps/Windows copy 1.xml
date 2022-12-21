@@ -1,4 +1,5 @@
 <keymap version="1" name="Windows copy 1" parent="$default">
+  <action id="AddToFavoritesPopup" />
   <action id="CopyElement" />
   <action id="Debugger.EditFrameSource" />
   <action id="Documentation.EditSource" />
@@ -7,7 +8,6 @@
   <action id="EditSource" />
   <action id="ExternalSystem.OpenConfig" />
   <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="shift ctrl f" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="GotoFile">
@@ -25,9 +25,16 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="RecentFiles" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f9" />
     <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f5" />
@@ -43,9 +50,16 @@
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="UpdateRunningApplication" />
   <action id="Vcs.EditSource" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="XDebugger.JumpToSource" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
 </keymap>
