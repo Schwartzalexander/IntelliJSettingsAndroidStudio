@@ -5,6 +5,16 @@
     <keyboard-shortcut first-keystroke="shift alt c" />
   </action>
   <action id="ChangesView.Move" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl 7" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="ctrl 7" />
+  </action>
   <action id="CopyElement" />
   <action id="Debugger.EditFrameSource" />
   <action id="Documentation.EditSource" />
@@ -19,6 +29,7 @@
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="GotoBookmark7" />
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
     <keyboard-shortcut first-keystroke="ctrl e" />
@@ -66,6 +77,7 @@
   </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="ToggleBookmark7" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UpdateRunningApplication" />
